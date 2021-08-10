@@ -1,1 +1,1 @@
-# BlueChat
+# Hideout-chat
