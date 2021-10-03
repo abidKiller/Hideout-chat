@@ -26,9 +26,8 @@ chatting method is as usual multi threaded way where two devices act as server, 
 
 
 # Demo
-<img src="https://user-images.githubusercontent.com/43814196/135754848-0a2da82e-1c1c-439c-8497-db6c33268c47.png" width="360" height="600" />   <img src="https://user-images.githubusercontent.com/43814196/135754846-311b2f45-8fa5-4b72-8677-3ec6f57ebf7b.png " width="360" height="600" />
+<img src="https://user-images.githubusercontent.com/43814196/135754848-0a2da82e-1c1c-439c-8497-db6c33268c47.png" width="360" height="600" />   <img src="https://user-images.githubusercontent.com/43814196/135754849-736ce41c-d878-4902-bcc0-aeecffbc430b.png" width="360" height="600" />
 
-<img src="https://user-images.githubusercontent.com/43814196/135754847-c6e4e104-e9a3-486a-acb8-b6b40bf9b532.png" width="360" height="600" />   <img src="https://user-images.githubusercontent.com/43814196/135754849-736ce41c-d878-4902-bcc0-aeecffbc430b.png" width="360" height="600" />
-
+<img src="https://user-images.githubusercontent.com/43814196/135754846-311b2f45-8fa5-4b72-8677-3ec6f57ebf7b.png " width="360" height="600" />   <img src="https://user-images.githubusercontent.com/43814196/135754847-c6e4e104-e9a3-486a-acb8-b6b40bf9b532.png" width="360" height="600" />   
 
 
