@@ -16,7 +16,7 @@ Lan chat application without internet access using java sockets
 
 # Technical Details
 
-1) User A opens the P2P program, select a name and avatar, click login, start landing on the local area network, user A login program will start two threads at the same time,  one thread inside the UDP service terminal (port number) 9156), used to wait for other users to log in, another thread inside to start the TCP service side (port number 9155), to wait for other users' Socket connection, at the same time user A will also use UDP broadcast a UDP package out. This UDP package contains information such as the user's name and ip address, and the UDP package is sent to all UDP service-side programs with the same port within the same local area network, including this program.
+1) User A opens the program, select a name and avatar, click login, start landing on the local area network, user A login program will start two threads at the same time,  one thread inside the UDP service terminal (port number) 9156), used to wait for other users to log in, another thread inside to start the TCP service side (port number 9155), to wait for other users' Socket connection, at the same time user A will also use UDP broadcast a UDP package out. This UDP package contains information such as the user's name and ip address, and the UDP package is sent to all UDP service-side programs with the same port within the same local area network, including this program.
 
 2) If there are other online users, then each online user program UDP service side will receive this UDP package, and then take out the user information and add user A to the online list, because the UDP package contains the user A ip address, so each online user uses user A's ip address to send a reply to user A.
 
