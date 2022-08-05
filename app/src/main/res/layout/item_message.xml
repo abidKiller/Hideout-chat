@@ -1,6 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/colorGray"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/left_msg_rl"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/head_img_left_civ"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/iv_1"
+            />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout
+            android:id="@+id/left_text_inner_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/head_img_left_civ"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toEndOf="@id/head_img_left_civ"
+            android:background="@drawable/bg_message_white_left"
+            android:minHeight="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/left_msg_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorWhite"
+                android:gravity="center"
+                android:text="i'm a freind of yours i like to talk to you more but i think you dont have that much tijem"
+                android:textColor="@color/colorDark" />
+
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/righ_msg_rl"
+        android:layout_marginTop="10dp"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/head_img_right_civ"
+            android:src="@drawable/iv_1"
+            android:layout_alignParentEnd="true"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/riht_msg_inner_ll"
+            android:background="@drawable/bg_message_green_right"
+            android:layout_alignTop="@+id/head_img_right_civ"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_toStartOf="@id/head_img_right_civ"
+           android:orientation="horizontal"
+            android:minHeight="50dp"
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/right_msg_tv"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:text="i know you are my firend"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/colorWhite"
+
+            />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
