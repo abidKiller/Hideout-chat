@@ -20,7 +20,7 @@ Lan chat application without internet access using java sockets
 
 2) If there are other online users, then each online user program UDP service side will receive this UDP package, and then take out the user information and add user A to the online list, because the UDP package contains the user A ip address, so each online user uses user A's ip address to send a reply to user A.
 
-4) USER A WAITS A WHILE, WILL RECEIVE ALL ONLINE USERS REPLY, AND THEN ALL ONLINE USERS TO THEIR OWN ONLINE LIST
+3)  User A waits for a while, they will receive replies from all online users, and then all online users will add User A to their own online list.
 
 chatting method is as usual multi threaded way where two devices act as server, we can say it is a p2p app.
 
